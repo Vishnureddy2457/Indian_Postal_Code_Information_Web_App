@@ -49,10 +49,6 @@ https://api.postalpincode.in/postoffice/{area-name}
 4.Push to the branch (git push origin feature-branch).
 5.Create a new Pull Request.
 
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 # Acknowledgments
 -> Postal Pincode API for providing the postal data.
 -> Icons from FontAwesome.

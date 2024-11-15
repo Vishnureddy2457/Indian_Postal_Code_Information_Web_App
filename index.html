@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postal Code Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Theme Toggle Switch -->
+  <div class="theme-toggle">
+    <input type="checkbox" id="themeSwitch" onclick="toggleTheme()">
+    <label for="themeSwitch" class="switch">
+      <span class="icon sun">☀️</span>
+      <span class="icon moon">🌙</span>
+    </label>
+  </div>
+
+  <div class="container">
+    <h1>Postal Code Information</h1>
+    <input type="text" id="searchInput" placeholder="Enter pincode or area name">
+    <button class="search-button" onclick="fetchPostalData()">Search</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
